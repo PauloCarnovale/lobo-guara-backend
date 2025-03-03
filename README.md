@@ -31,11 +31,8 @@ docker-compose up -d
 
 ### Crie o arquivo .env na raiz do projeto e configure as variáveis de ambiente:
 
-DATABASE_HOST=
-DATABASE_PORT=
-DATABASE_USER=
-DATABASE_PASSWORD=
-DATABASE_NAME=
+DATABASE_URL=
+
 
 ## Executando o Projeto
 
@@ -51,7 +48,15 @@ yarn prisma migrate deploy
 yarn start:dev
 ```
 
-#A API estará disponível em http://localhost:3000/docs.
+# A API estará disponível em http://localhost:3000/docs.
 
 ## Caso queira usar Postman ou similares para fazer as requisições HTTP 
     http://localhost:3000/
+
+# Parando os Containers
+
+Para desligar os containers do banco:
+
+```sh
+docker-compose down
+```
