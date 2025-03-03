@@ -4,7 +4,7 @@
 
 - Node.js v22.14.0  
 - Yarn  
-- Docker e Docker Compose  
+- Docker
 
 ## Instalação
 
