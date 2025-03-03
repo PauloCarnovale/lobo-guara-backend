@@ -58,5 +58,5 @@ yarn start:dev
 Para desligar os containers do banco:
 
 ```sh
-docker-compose down
+docker-compose stop
 ```
