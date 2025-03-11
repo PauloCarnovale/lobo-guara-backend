@@ -60,3 +60,5 @@ Para desligar os containers do banco:
 ```sh
 docker-compose stop
 ```
+
+**OK
